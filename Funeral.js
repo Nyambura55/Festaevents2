@@ -23,4 +23,4 @@ function Funeral() {
     </div>
   );
 }
-export default App;
+export default Funeral;

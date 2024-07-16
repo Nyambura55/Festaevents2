@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const mainPage = () => {
   return (
     <div
@@ -23,9 +22,9 @@ const mainPage = () => {
             <a href="#services" className="dropbtn">Services</a>
             <ul className="dropdown-content">
               <li><a href="/partiesPrivate" target="_blank">Private Party</a></li>
-              <li><a href="#">Corporate Events</a></li>
+              <li><a href="/Corporate">Corporate Events</a></li>
               <li><a href="/wedding">Weddings</a></li>
-              <li><a href="#">Funerals</a></li>
+              <li><a href="/Funeral">Funerals</a></li>
             </ul>
           </li>
           <li><a href="#home">Home</a></li>

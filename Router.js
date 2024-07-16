@@ -1,13 +1,14 @@
 // Router.js
 import { BrowserRouter, Route, Switch } from 'eact-router-dom';
-import mainPage from './pages/Main';
-import AboutUs from './pages/About';
+import Main from './pages/Main';
+import About from './pages/About';
 import Testimonials from './pages/Testimonials';
-import WeddingPage from './pages/Wedding';
-import PrivateParties from './pages/Privateparties';
-import CorporateEventPage from './pages/Corporate';
+import Wedding from './pages/Wedding';
+import Privateparties from './pages/Privateparties';
+import Corporate from './pages/Corporate';
 import Login from './pages/Login';
-
+import Funeral from './Funeral';
+import Services from './Services';
 const Router = () => {
   return (
     <BrowserRouter>

@@ -33,4 +33,5 @@ const App = () => {
     window.location.href = "/login"; // assuming your login page is at /login
   };
 }
+
 export default Login; 
